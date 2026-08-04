@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Nord Est Elec - standalone.html"
+    }
+  ],
+  "cleanUrls": true
+}
