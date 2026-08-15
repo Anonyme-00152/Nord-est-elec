@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Nord Est Elec.dc.html"
+    }
+  ]
+}
