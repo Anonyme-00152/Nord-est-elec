@@ -996,8 +996,8 @@
 
   <sc-if value="{{ showStickyBar }}" hint-placeholder-val="{{ false }}">
     <div class="neel-sticky-bar neel-print-hide" style="position:fixed;bottom:0;left:0;right:0;z-index:89;background:oklch(0.14 0.004 260 / 0.96);backdrop-filter:blur(10px);border-top:1px solid oklch(1 0 0 / 0.08);padding:10px 16px;gap:10px;display:none;">
-      <button onClick="{{ goContact }}" style="flex:1;background:oklch(0.71 0.19 45);color:#fff;border:none;padding:12px;border-radius:100px;font-weight:700;font-size:13px;cursor:pointer;">{{ t.ctaQuote }}</button>
-      <a href="tel:0699399518" style="flex:1;text-align:center;background:oklch(1 0 0 / 0.08);color:#fff;border:1px solid oklch(1 0 0 / 0.16);padding:12px;border-radius:100px;font-weight:700;font-size:13px;">{{ t.ctaCallShort }}</a>
+      <button onClick="{{ goContact }}" style="flex:1;display:flex;align-items:center;justify-content:center;text-align:center;background:oklch(0.71 0.19 45);color:#fff;border:none;padding:12px;border-radius:100px;font-weight:700;font-size:13px;cursor:pointer;">{{ t.ctaQuote }}</button>
+      <a href="tel:0699399518" style="flex:1;display:flex;align-items:center;justify-content:center;text-align:center;background:oklch(1 0 0 / 0.08);color:#fff;border:1px solid oklch(1 0 0 / 0.16);padding:12px;border-radius:100px;font-weight:700;font-size:13px;">{{ t.ctaCallShort }}</a>
     </div>
   </sc-if>
 
