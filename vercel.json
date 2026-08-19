@@ -1,8 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/Nord Est Elec.dc.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
